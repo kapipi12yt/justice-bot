@@ -45,4 +45,5 @@ bot.on("message", async message => {
   if(commandfile) commandfile.run(bot,message,args);
 });
 
-bot.login('NDUzMjIzODk2MzQzMzc5OTY4.DfbxMQ.TapyCevQ1c65rUhijCatzHnUeBg');
+//bot.login('NDUzMjIzODk2MzQzMzc5OTY4.DfbxMQ.TapyCevQ1c65rUhijCatzHnUeBg');
+client.login('process.env.BOT_TOKEN');
